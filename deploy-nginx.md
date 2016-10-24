@@ -7,3 +7,5 @@ curl -i localhost:8080
 docker exec -it 8a4 /bin/bash
 
 ```
+
+#### How to change static file and config file in nginx ?
