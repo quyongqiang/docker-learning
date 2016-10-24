@@ -1,4 +1,4 @@
-#### deploy nginx
+#### Deploy Nginx
 ```
 docker run -p  8080:80 -d nginx
 docker ps -a
