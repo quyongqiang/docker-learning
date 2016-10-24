@@ -20,3 +20,9 @@ apt-get install -y vim
 # html files
 /usr/share/nginx/html/
 ```
+
+#### Deploy Nginx and mapping Host's dir into Container's dir.
+```
+# /tmp/nginx is dir in Host, /usr/share/nginx/html/ is dir in Container
+docker run -p 8003:80 -d -v /tmp/nginx:/usr/share/nginx/html/ nginx
+```
