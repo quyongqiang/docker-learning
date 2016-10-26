@@ -28,3 +28,8 @@ docker run -d -p 8080:3000 nginx
 ```
 docker exec -it container_id /bin/bash
 ```
+
+停止所有容器
+```
+docker rm -f `docker ps -a -q`
+```
