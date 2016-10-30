@@ -33,3 +33,8 @@ docker exec -it container_id /bin/bash
 ```
 docker rm -f `docker ps -a -q`
 ```
+
+查看redis容器的网络配置
+```
+docker inspect redis | grep -i networkse -A 15
+```
