@@ -36,5 +36,5 @@ docker rm -f `docker ps -a -q`
 
 查看redis容器的网络配置
 ```
-docker inspect redis | grep -i networkse -A 15
+docker inspect redis | grep -i networks -A 15
 ```
