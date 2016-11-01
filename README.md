@@ -4,4 +4,5 @@ docker using examples and commands.
 - [Installation](Installation.md)
 - [Commands](commands.md)
 - [Docker Networking](docker-networking.md)
-- [tutorials-and-sites](tutorials-and-sites.md)
+- [Tutorials-and-Sites](Tutorials-and-Sites.md)
+- [deploy-nginx](deploy-nginx.md)
