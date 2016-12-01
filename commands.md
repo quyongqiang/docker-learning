@@ -44,3 +44,7 @@ docker inspect redis | grep -i networks -A 15
 # ps -ef | grep docker
 root     20820     1  3 01:59 ?        00:00:00 /usr/bin/docker-current daemon --exec-opt native.cgroupdriver=systemd --selinux-enabled --log-driver=journald
 ```
+刪除docker, centos
+```
+ yum remove  docker*
+```
