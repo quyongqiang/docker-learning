@@ -18,10 +18,14 @@ docker info
 ```
 
 ## 2. Install use yum on centos. Don't use default yum source, which is too old.
+
+#### official
 ```
-# official
 https://docs.docker.com/engine/installation
-# daocloud
+```
+
+#### daocloud
+```
 http://get.daocloud.io/#install-docker
 
 ``
