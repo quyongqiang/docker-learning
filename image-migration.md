@@ -1,3 +1,8 @@
+## How to migrate offical image to your personal repo?
+```
+??
+```
+
 ## For dns in k8s, from official site.
 `from https://github.com/kubernetes/kubernetes/blob/master/cluster/addons/dns/skydns-rc.yaml.base`
 ```
